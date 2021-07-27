@@ -1,15 +1,17 @@
 import './App.css';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Home from './components/Home.js'
-import About from './components/About.js'
-import SinglePost from './components/SinglePost.js'
-import Post from './components/Post.js'
-import Project from './components/Project.js'
+import Home from './pages/Home.js'
+import About from './pages/About.js'
+import SinglePost from './pages/SinglePost.js'
+import Post from './pages/Post.js'
+import Project from './pages/Project.js'
+import NavBar from './pages/NavBar.js'
 
 
 function App() {
   return (
     <BrowserRouter>
+    <NavBar/>
       <Switch>
         <Route component={Home} path='/' exact/>
         <Route component={About} path='/about' />
