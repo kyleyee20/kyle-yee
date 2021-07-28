@@ -1,0 +1,23 @@
+/* NavBar */
+.navBar {
+    background-color: #DA0000;
+}
+.navBar .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+}
+.navbar .container .nav {
+    display: flex;
+}
+.navbar .container .nav .navLink{
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 6px;
+    margin-right: 4px;
+    color: #FF0000;
+}
+.navbar .container .nav .navLink:hover{
+    color: #00D425;
+}
