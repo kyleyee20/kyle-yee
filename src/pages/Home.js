@@ -1,9 +1,11 @@
 import React from "react";
+// tailwind just knows to get it from the index.css file without importing it?
+// import "../index.css";
 
 function Home() {
   return (
-    <main>
-      <section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
+    <main className="home">
+      <section className="section">
         <h1 className="text-6xl text-green-100 font-bold leading-none lg:leading-snug home-name">
           Hello, I'm Cameron
         </h1>
