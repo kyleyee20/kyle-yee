@@ -8,7 +8,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import blockContent from './blockContent'
 import post from './post'
 import author from './author'
-import project from "./project.js"
+import project from './project'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
