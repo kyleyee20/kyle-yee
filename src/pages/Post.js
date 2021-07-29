@@ -19,7 +19,6 @@ function Post() {
                 }
             }`)
       .then((data) => {
-          console.log("data: ", data)
         setPostData(data);
       })
       .catch(console.error);
