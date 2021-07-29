@@ -6,7 +6,7 @@ function Home() {
   return (
     <main className="home">
       <section className="section">
-        <h1 className="text-6xl text-green-100 font-bold leading-none lg:leading-snug home-name">
+        <h1 className="h1">
           Hello, I'm Cameron
         </h1>
       </section>

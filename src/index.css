@@ -7,10 +7,45 @@
   margin-right: auto;
   border-radius: 5px;
 }
-/* Home */
+
+/* Home.js */
 .home section {
   @apply relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8;
 }
 .home-name {
-  font-size: 100px;
+  font-size: 150px;
 }
+.home section h1 {
+  @apply text-6xl text-green-100 font-bold leading-none lg:leading-snug home-name;
+}
+
+/* Post.js */
+.post {
+  @apply bg-green-100 min-h-screen p-12;
+}
+.post .section {
+  @apply container mx-auto;
+}
+.post .section .h1 {
+  @apply text-5xl flex justify-center;
+}
+.post .section .h2 {
+  @apply text-lg text-gray-600 flex justify-center mb-12;
+}
+.post .section .grids {
+  @apply grid md:grid-cols-2 lg:grid-cols-3 gap-8;
+}
+.post .section .grids .backgroundCard{
+  @apply block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-green-400;
+}
+.post .section .grids .backgroundCard .picture{
+  @apply w-full h-full rounded-r object-cover absolute;
+}
+.post .section .grids .backgroundCard .titleBox{
+  @apply block relative h-full flex justify-end items-end pr-4 pb-4;
+}
+.post .section .grids .backgroundCard .titleBox .postTitle{
+  @apply text-gray-800 text-lg px-3 py-4 bg-red-700 text-red-100 bg-opacity-75 rounded;
+}
+
+
