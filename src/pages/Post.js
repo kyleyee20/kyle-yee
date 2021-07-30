@@ -28,13 +28,12 @@ function Post() {
   }, []);
 
   return (
-    <main className="post">
+    <main className="postPage">
       <section className="section">
         <h1 className="h1">Posts Page</h1>
         <h2 className="h2">Welcome to my posts!</h2>
         <div className="grids">
-          {postData &&
-            postData.map((post, index) => (
+          {postData && postData.map((post, index) => (
               <article>
                 <Link to={"/post/" + post.slug.current} key={post.slug.current}>
                   <span

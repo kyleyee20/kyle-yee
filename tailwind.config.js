@@ -3,7 +3,11 @@ module.exports = {
   important: true,
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        scarlett: "var(--scarlett)"
+      }
+    },
   },
   variants: {
     extend: {},

@@ -18,23 +18,21 @@ function Project() {
         }`
       )
       .then((data) => {
-          console.log("data: ", data)
+        console.log("data: ", data);
         setProjectData(data);
       })
       .catch(console.error);
   }, []);
 
   return (
-    <main className="bg-green-100 min-h-screen p-12">
-      <section className="container mx-auto">
-        <h1 className="text-5xl flex justify-center">My Projects</h1>
-        <h2 className="text-lg text-gray-600 flex justify-center mb-12">
-          Welcome to my projects page!
-        </h2>
-        <section className="grid grid-cols-2 gap-8">
+    <main className="projectPage">
+      <section className="section">
+        <h1 className="title">My Projects</h1>
+        <h2 className="subtitle">Welcome to my projects page!</h2>
+        <section className="grids">
           {projectData && projectData.map((project, index) => (
-              <article className="relative rounded-lg shadow-xl bg-white p-16">
-                <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
+              <article className="projectCard">
+                <h3 className="projectTitle">
                   <a
                     href={project.link}
                     alt={project.title}

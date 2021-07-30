@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Variables */
+.root,
+#root,
+#docs-root {
+  --scarlett: #DA0000; 
+}
+
 .prose img {
   margin-left: auto;
   margin-right: auto;
@@ -9,43 +16,65 @@
 }
 
 /* Home.js */
-.home section {
+.homePage .section {
   @apply relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8;
 }
 .home-name {
   font-size: 150px;
 }
-.home section h1 {
-  @apply text-6xl text-green-100 font-bold leading-none lg:leading-snug home-name;
+.homePage .section .h1 {
+  @apply text-6xl text-scarlett font-bold leading-none lg:leading-snug home-name;
 }
 
-/* Post.js */
-.post {
+/* postPage.js */
+.postPage {
   @apply bg-green-100 min-h-screen p-12;
 }
-.post .section {
+.postPage .section {
   @apply container mx-auto;
 }
-.post .section .h1 {
+.postPage .section .h1 {
   @apply text-5xl flex justify-center;
 }
-.post .section .h2 {
+.postPage .section .h2 {
   @apply text-lg text-gray-600 flex justify-center mb-12;
 }
-.post .section .grids {
+.postPage .section .grids {
   @apply grid md:grid-cols-2 lg:grid-cols-3 gap-8;
 }
-.post .section .grids .backgroundCard{
+.postPage .section .grids .backgroundCard{
   @apply block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-green-400;
 }
-.post .section .grids .backgroundCard .picture{
+.postPage .section .grids .backgroundCard .picture{
   @apply w-full h-full rounded-r object-cover absolute;
 }
-.post .section .grids .backgroundCard .titleBox{
+.postPage .section .grids .backgroundCard .titleBox{
   @apply block relative h-full flex justify-end items-end pr-4 pb-4;
 }
-.post .section .grids .backgroundCard .titleBox .postTitle{
+.postPage .section .grids .backgroundCard .titleBox .postTitle{
   @apply text-gray-800 text-lg px-3 py-4 bg-red-700 text-red-100 bg-opacity-75 rounded;
 }
 
-
+/* Project.js */
+.projectPage {
+  @apply bg-green-100 min-h-screen p-12;
+}
+.projectPage .section {
+  @apply container mx-auto;
+}
+.projectPage .section .title {
+  @apply text-5xl flex justify-center;
+}
+.projectPage .section .subtitle {
+  @apply text-lg text-gray-600 flex justify-center mb-12;
+}
+.projectPage .section .grids {
+  @apply grid grid-cols-2 gap-8;
+}
+.projectPage .section .grids .projectCard{
+  @apply relative rounded-lg shadow-xl bg-white p-16 transition-all hover:bg-black duration-300;
+}
+.projectPage .section .grids .projectCard .projectTitle{
+  @apply text-gray-800 text-3xl font-bold mb-2 hover:text-red-700;
+  width: 40%;
+}
