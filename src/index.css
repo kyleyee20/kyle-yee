@@ -16,7 +16,7 @@
 }
 
 /* NavBar.js */
-.nav {
+.navSection {
   position: fixed;
   top: 0;
   left: 0;
@@ -24,13 +24,16 @@
   padding: 30px;
   background-color: black;
   display: flex;
+  align-items: center;
   z-index: 10;
 }
-.nav .navBar-brand {
+.navSection .navBar-brand {
   @apply inline-flex font-sans items-center px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold tracking-widest;
-  
 }
-.nav .navLink {
+.navSection .navLinks {
+  margin-left: auto;
+}
+.navSection .navLinks .navLink {
   @apply text-xl font-sans inline-flex px-3 items-center rounded text-red-200 hover:text-green-800;
 }
 
