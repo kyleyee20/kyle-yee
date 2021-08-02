@@ -15,9 +15,26 @@
   border-radius: 5px;
 }
 
+/* NavBar.js */
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 30px;
+  background-color: black;
+  display: flex;
+}
+.nav .navBar-brand {
+  @apply inline-flex font-sans items-center px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold tracking-widest;
+}
+.nav .navLink {
+  @apply text-xl font-sans inline-flex px-3 items-center rounded text-red-200 hover:text-green-800;
+}
+
 /* Home.js */
 .homePage .section {
-  @apply relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8;
+  @apply flex justify-center min-h-screen pt-12 lg:pt-64 px-8;
 }
 .home-name {
   font-size: 150px;

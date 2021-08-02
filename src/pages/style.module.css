@@ -1,6 +1,7 @@
 /* NavBar */
 .navBar {
-    background-color: #DA0000;
+    background-color: #0A0A0A;
+
 } 
 .navBar .container {
     display: flex;
