@@ -24,15 +24,20 @@
   padding: 30px;
   background-color: black;
   display: flex;
+  z-index: 10;
 }
 .nav .navBar-brand {
   @apply inline-flex font-sans items-center px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold tracking-widest;
+  
 }
 .nav .navLink {
   @apply text-xl font-sans inline-flex px-3 items-center rounded text-red-200 hover:text-green-800;
 }
 
 /* Home.js */
+.homePage {
+  padding-top: 100px;
+}
 .homePage .section {
   @apply flex justify-center min-h-screen pt-12 lg:pt-64 px-8;
 }
@@ -43,38 +48,10 @@
   @apply text-6xl text-scarlett font-bold leading-none lg:leading-snug home-name;
 }
 
-/* postPage.js */
-.postPage {
-  @apply bg-green-100 min-h-screen p-12;
-}
-.postPage .section {
-  @apply container mx-auto;
-}
-.postPage .section .h1 {
-  @apply text-5xl flex justify-center;
-}
-.postPage .section .h2 {
-  @apply text-lg text-gray-600 flex justify-center mb-12;
-}
-.postPage .section .grids {
-  @apply grid md:grid-cols-2 lg:grid-cols-3 gap-8;
-}
-.postPage .section .grids .backgroundCard{
-  @apply block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-green-400;
-}
-.postPage .section .grids .backgroundCard .picture{
-  @apply w-full h-full rounded-r object-cover absolute;
-}
-.postPage .section .grids .backgroundCard .titleBox{
-  @apply block relative h-full flex justify-end items-end pr-4 pb-4;
-}
-.postPage .section .grids .backgroundCard .titleBox .postTitle{
-  @apply text-gray-800 text-lg px-3 py-4 bg-red-700 text-red-100 bg-opacity-75 rounded;
-}
-
 /* Project.js */
 .projectPage {
   @apply bg-green-100 min-h-screen p-12;
+  padding-top: 100px;
 }
 .projectPage .section {
   @apply container mx-auto;

@@ -1,6 +1,7 @@
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-  important: true,
+  // the important thing makes sure that all tailwind styling has priority
+  // important: true,
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {

@@ -10,29 +10,22 @@ function NavBar() {
         <NavLink
           to="/"
           exact
-          activeClassName="text-white"
           className="navBar-brand"
+          activeClassName="text-white"
         >
           Cameron
         </NavLink>
         <NavLink
-          to="/post"
-          className="navLink"
-          activeClassName="text-red-100"
-        >
-          Posts
-        </NavLink>
-        <NavLink
           to="/project"
           className="navLink"
-          activeClassName="text-red-100"
+          activeClassName="text-scarlett"
         >
           Projects
         </NavLink>
         <NavLink
           to="/about"
           className="navLink"
-          activeClassName="text-red-100"
+          activeClassName="text-scarlett"
         >
           About Me!
         </NavLink>
