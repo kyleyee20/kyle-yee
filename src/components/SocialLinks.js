@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-function SocialLink() {
+function SocialLinks() {
   return (
     <div className="socialLinks">
         <div className="socialLink">
@@ -14,4 +14,4 @@ function SocialLink() {
   );
 }
 
-export default SocialLink;
+export default SocialLinks;

@@ -36,7 +36,7 @@
   @apply text-xl font-sans inline-flex px-3 items-center rounded text-red-200 hover:text-green-800;
 }
 
-/* SocialLink.js */
+/* SocialLinks.js */
 .socialLinks {
   position: fixed;
   bottom: 30px;
