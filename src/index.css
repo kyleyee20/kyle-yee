@@ -6,7 +6,7 @@
 .root,
 #root,
 #docs-root {
-  --scarlett: #DA0000; 
+  --scarlett: #da0000;
 }
 
 .prose img {
@@ -16,30 +16,43 @@
 }
 
 /* NavBar.js */
-.navSection {
+.navbar {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  padding: 30px;
+  padding: 10px;
   background-color: black;
   display: flex;
   align-items: center;
-  z-index: 10;
 }
-.navSection .navBar-brand {
+.navbar .navBar-brand {
   @apply inline-flex font-sans items-center px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold tracking-widest;
 }
-.navSection .navLinks {
+.navbar .navLinks {
   margin-left: auto;
 }
-.navSection .navLinks .navLink {
+.navbar .navLinks .navLink {
   @apply text-xl font-sans inline-flex px-3 items-center rounded text-red-200 hover:text-green-800;
+}
+
+/* SocialLink.js */
+.socialLinks {
+  position: fixed;
+  bottom: 30px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 2.25rem;
+  z-index: 5;
+}
+.socialLink {
+  padding: 15px;
 }
 
 /* Home.js */
 .homePage {
-  padding-top: 100px;
+  padding-top: 70px;
 }
 .homePage .section {
   @apply flex justify-center min-h-screen pt-12 lg:pt-64 px-8;
@@ -54,7 +67,7 @@
 /* Project.js */
 .projectPage {
   @apply bg-green-100 min-h-screen p-12;
-  padding-top: 100px;
+  padding-top: 70px;
 }
 .projectPage .section {
   @apply container mx-auto;
@@ -68,10 +81,15 @@
 .projectPage .section .grids {
   @apply grid grid-cols-2 gap-8;
 }
-.projectPage .section .grids .projectCard{
+.projectPage .section .grids .projectCard {
   @apply relative rounded-lg shadow-xl bg-white p-16 transition-all hover:bg-black duration-300;
 }
-.projectPage .section .grids .projectCard .projectTitle{
+.projectPage .section .grids .projectCard .projectTitle {
   @apply text-gray-800 text-3xl font-bold mb-2 hover:text-red-700;
   width: 40%;
+}
+
+/* About.js */
+.aboutPage {
+  padding-top: 70px;
 }

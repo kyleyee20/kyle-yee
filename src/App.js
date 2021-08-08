@@ -3,6 +3,7 @@ import Home from './pages/Home.js'
 import About from './pages/About.js'
 import Project from './pages/Project.js'
 import NavBar from './pages/NavBar.js'
+import SocialLink from './components/SocialLink.js'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route component={About} path='/about' />
         <Route component={Project} path='/project' />
       </Switch>
+      <SocialLink/>
     </BrowserRouter>
   );
 }
