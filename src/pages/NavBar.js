@@ -15,18 +15,18 @@ function NavBar() {
       </NavLink>
       <div className="navLinks">
         <NavLink
-          to="/project"
-          className="navLink"
-          activeClassName="text-scarlett"
-        >
-          Projects
-        </NavLink>
-        <NavLink
           to="/about"
           className="navLink"
           activeClassName="text-scarlett"
         >
-          About Me
+          ABOUT
+        </NavLink>
+        <NavLink
+          to="/project"
+          className="navLink"
+          activeClassName="text-scarlett"
+        >
+          PROJECTS
         </NavLink>
       </div>
     </div>
