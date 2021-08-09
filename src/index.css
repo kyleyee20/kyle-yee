@@ -22,7 +22,7 @@
   left: 0;
   right: 0;
   padding: 10px;
-  background-color: black;
+  background-color: #0A0A0A;
   display: flex;
   align-items: center;
 }
@@ -46,16 +46,36 @@
   font-size: 2.25rem;
   z-index: 5;
 }
-.socialLink {
+.socialLinks .LinkedIn {
   padding: 15px;
+  position: fixed;
+  bottom: 95px;
+  left: 20px;
+}
+.socialLinks .GitHub {
+  padding: 15px;
+  position: fixed;
+  bottom: 30px;
+  left: 20px;
+}
+.LinkedIn:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+  transition: 0.1s;
+}
+.GitHub:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+  transition: 0.1s;
 }
 
 /* Home.js */
 .homePage {
-  padding-top: 70px;
+  padding-top: 60px;
+  background-color: #0A0A0A;
 }
 .homePage .section {
-  @apply flex justify-center min-h-screen pt-12 lg:pt-64 px-8;
+  @apply flex justify-center min-h-screen lg:pt-48 px-8;
 }
 .home-name {
   font-size: 150px;

@@ -7,7 +7,7 @@ function Home() {
     <main className="homePage">
       <section className="section">
         <h1 className="h1">
-          Hello, I'm Cameron
+          Hello There
         </h1>
       </section>
     </main>
