@@ -6,7 +6,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        scarlett: "var(--scarlett)"
+        scarlett: "var(--scarlett)",
+        grey: "var(--bio-background)",
+        text_white: "var(--text-white)"
       }
     },
   },

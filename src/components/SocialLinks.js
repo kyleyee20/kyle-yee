@@ -4,6 +4,9 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 function SocialLinks() {
   let iconColor = { color: "#FFFFEC66" };
 
+  // this color when inactive social links #FFFFEC66
+  // this color when hovering social links #CBCBCB
+
   return (
     <div className="socialLinks">
       <a

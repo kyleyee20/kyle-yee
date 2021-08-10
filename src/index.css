@@ -4,9 +4,13 @@
 
 /* Variables */
 .root,
+:root,
 #root,
 #docs-root {
   --scarlett: #da0000;
+  --main-background: #0A0A0A;
+  --grey: #414141;
+  --text-white: #FDF6F0;
 }
 
 .prose img {
@@ -22,18 +26,20 @@
   left: 0;
   right: 0;
   padding: 10px;
-  background-color: #0A0A0A;
+  background-color: var(--main-background);
   display: flex;
   align-items: center;
 }
 .navbar .navBar-brand {
-  @apply inline-flex font-sans items-center px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold tracking-widest;
+  @apply inline-flex font-sans items-center px-3 mr-4 text-text_white hover:text-scarlett text-4xl font-bold tracking-widest;
+  transition: .2s;
 }
 .navbar .navLinks {
   margin-left: auto;
 }
 .navbar .navLinks .navLink {
-  @apply text-xl font-sans inline-flex px-3 items-center rounded leading-3 text-red-200 hover:text-green-800;
+  @apply text-xl font-sans inline-flex px-3 items-center rounded leading-3 text-text_white hover:text-scarlett;
+  transition: .2s;
 }
 
 /* SocialLinks.js */
@@ -61,27 +67,60 @@
 .LinkedIn:hover {
   cursor: pointer;
   transform: scale(1.2);
-  transition: 0.1s;
+  transition: 0.15s;
 }
 .GitHub:hover {
   cursor: pointer;
   transform: scale(1.2);
-  transition: 0.1s;
+  transition: 0.15s;
+}
+
+body {
+  background-color: #0A0A0A;
 }
 
 /* Home.js */
 .homePage {
-  padding-top: 60px;
-  background-color: #0A0A0A;
+  @apply flex justify-center px-8;
+  padding-top: 100px;
 }
 .homePage .section {
-  @apply flex justify-center min-h-screen lg:pt-48 px-8;
+  @apply rounded-lg p-10;
+  position: relative;
+  top: 70px;
+  height: 400px;
+  width: 900px;
 }
-.home-name {
-  font-size: 150px;
+.homePage .section h1 {
+  color: var(--text-white);
+  font-size: 50px;
 }
-.homePage .section .h1 {
-  @apply text-6xl text-scarlett font-bold leading-none lg:leading-snug home-name;
+.homePage .section h1 .name{
+  color: var(--scarlett);
+}
+.homePage .section h2 {
+  color: var(--text-white);
+  font-size: 25px;
+  position: relative;
+  top: 40px;
+}
+.homePage .section h3 {
+  color: var(--text-white);
+  font-size: 20px;
+  position: relative;
+  top: 60px;
+}
+button {
+  background-color: var(--scarlett);
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  left: 610px;
+  top: 25px;
 }
 
 /* Project.js */
