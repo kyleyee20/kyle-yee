@@ -15,6 +15,13 @@ function NavBar() {
       </NavLink>
       <div className="navLinks">
         <NavLink
+          to="/"
+          className="navLink"
+          activeClassName="text-scarlett"
+        >
+          HOME
+        </NavLink>
+        <NavLink
           to="/about"
           className="navLink"
           activeClassName="text-scarlett"

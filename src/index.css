@@ -13,10 +13,12 @@
   --text-white: #FDF6F0;
 }
 
-.prose img {
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
+/* Miscellaneous */
+/* Use for everwhere that isn't the navlink */
+.hover-scarlett:hover {
+  color: var(--scarlett);
+  transition: .2s;
+  cursor: pointer;
 }
 
 /* NavBar.js */
