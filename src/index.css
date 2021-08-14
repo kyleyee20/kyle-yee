@@ -39,8 +39,8 @@ body {
   align-items: center;
 }
 .navbar .navBar-brand {
-  @apply inline-flex font-sans items-center px-3 mr-4 text-text_white text-4xl font-bold tracking-widest;
-  transition: .2s;
+  @apply inline-flex font-sans items-center px-3 mr-4 text-text_white hover:text-scarlett text-4xl font-bold tracking-widest;
+  transition: .18s;
 }
 .navbar .activeLink {
   color: var(--scarlett);
@@ -50,7 +50,7 @@ body {
 }
 .navbar .navLinks .navLink {
   @apply text-xl font-sans inline-flex px-3 items-center rounded leading-3 text-text_white hover:text-scarlett;
-  transition: .2s;
+  transition: .18s;
 }
 .navbar .navLinks .activeLink {
   color: var(--scarlett);
@@ -123,6 +123,7 @@ body {
 button {
   background-color: var(--scarlett);
   border: none;
+  border-radius: 5px;
   color: var(--text-white);
   padding: 8px 32px;
   text-align: center;
@@ -139,19 +140,39 @@ button {
   padding-top: 70px;
   background-color: var(--main-background);
 }
-.projectPage .title {
-  @apply text-5xl flex justify-center;
-  color: var(--scarlett);
-  padding-bottom: 30px;
+.projectPage .projectSection {
+  margin-top: 30px;
 }
 .projectPage .projectSection .projectSectionName {
-  color: var(--text-white);
+  font-size: 36px;
+  color: var(--scarlett);
+  margin-left: 175px;
+  padding: 30px;
+  padding-left: 2rem;
 }
 .projectPage .projectSection .grids {
-  @apply grid grid-cols-3 gap-8;
+  @apply grid grid-cols-2 gap-x-14 gap-y-8;
+  margin: 0 175px;
 }
+/* to mimick mouseout, you have to add the transition element to the html tag.
+Transition on the hover tag is for mouse in and transition in the regular tag is for mouse out */
 .projectPage .projectSection .grids .projectCard {
   @apply relative rounded-lg shadow-xl bg-projectColor p-8;
+  transition: .3s;
+}
+.projectPage .projectSection .grids .projectCard:hover{
+  transform: scale(1.025);
+  transition: 0.3s;
+}
+.projectPage .projectSection .grids .projectCard .projectTitle {
+  font-size: 24px;
+  color: var(--text-white);
+  text-align: left;
+  padding-bottom: 20px;
+}
+.projectPage .projectSection .grids .projectCard p {
+  @apply text-paragraph;
+  text-align: left;
 }
 
 /* About.js */

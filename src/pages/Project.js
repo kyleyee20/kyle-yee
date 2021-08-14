@@ -3,22 +3,71 @@ import React from "react";
 function Project() {
   return (
     <main className="projectPage">
-      <h1 className="title">My Projects</h1>
+      {/* 2 Project Sections: personal and hackathon */}
       <section className="projectSection">
-        <h2 className="projectSectionName">Hackathon Projects</h2>
+        <strong>
+          <h2 className="projectSectionName">Personal Projects</h2>
+        </strong>
         <div className="grids">
           <div className="projectCard">
             <h3 className="projectTitle">Apartment Finder</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at
+              tincidunt arcu, at dapibus nisl. Duis auctor dapibus accumsan.
+              Etiam neque metus, bibendum sed ligula sed, faucibus blandit
+              massa. In porttitor lobortis sapien, sollicitudin iaculis augue
+              commodo et. Fusce libero nunc, finibus in elementum id,{" "}
+            </p>
           </div>
-          <div className="projectCard">Smart and Safe Security System</div>
-          <div className="projectCard">Learning Resource Library</div>
+          <div className="projectCard">
+            <h3 className="projectTitle">Smart and Safe Security System</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at
+              tincidunt arcu, at dapibus nisl. Duis auctor dapibus accumsan.
+              Etiam neque metus, bibendum sed ligula sed, faucibus blandit
+              massa. In porttitor lobortis sapien, sollicitudin iaculis augue
+              commodo et. Fusce libero nunc, finibus in elementum id,{" "}
+            </p>
+          </div>
         </div>
       </section>
       <section className="projectSection">
-        <h2 className="projectSectionName">Personal Projects</h2>
+        <strong>
+          <h2 className="projectSectionName">Hackathon Projects</h2>
+        </strong>
         <div className="grids">
-          <div className="projectCard">Slack Server App</div>
-          <div className="projectCard">Sudoku Game/Solver</div>
+          <div className="projectCard">
+            {/* also make the title a link to the devpost */}
+            <h3 className="projectTitle">Apartment Finder</h3>
+            {/* put the devpost link */}
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at
+              tincidunt arcu, at dapibus nisl. Duis auctor dapibus accumsan.
+              Etiam neque metus, bibendum sed ligula sed, faucibus blandit
+              massa. In porttitor lobortis sapien, sollicitudin iaculis augue
+              commodo et. Fusce libero nunc, finibus in elementum id,{" "}
+            </p>
+          </div>
+          <div className="projectCard">
+            <h3 className="projectTitle">Smart and Safe Security System</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at
+              tincidunt arcu, at dapibus nisl. Duis auctor dapibus accumsan.
+              Etiam neque metus, bibendum sed ligula sed, faucibus blandit
+              massa. In porttitor lobortis sapien, sollicitudin iaculis augue
+              commodo et. Fusce libero nunc, finibus in elementum id,{" "}
+            </p>
+          </div>
+          <div className="projectCard">
+            <h3 className="projectTitle">Learning Resource Library</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at
+              tincidunt arcu, at dapibus nisl. Duis auctor dapibus accumsan.
+              Etiam neque metus, bibendum sed ligula sed, faucibus blandit
+              massa. In porttitor lobortis sapien, sollicitudin iaculis augue
+              commodo et. Fusce libero nunc, finibus in elementum id,{" "}
+            </p>
+          </div>
         </div>
       </section>
     </main>

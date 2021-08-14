@@ -10,7 +10,7 @@ module.exports = {
         grey: "var(--bio-background)",
         text_white: "var(--text-white)",
         projectColor: "var(--project-color)",
-        paragraph: "var(--parapraph)"
+        paragraph: "var(--paragraph)"
       }
     },
   },
