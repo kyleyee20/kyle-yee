@@ -8,7 +8,9 @@ module.exports = {
       colors: {
         scarlett: "var(--scarlett)",
         grey: "var(--bio-background)",
-        text_white: "var(--text-white)"
+        text_white: "var(--text-white)",
+        projectColor: "var(--project-color)",
+        paragraph: "var(--parapraph)"
       }
     },
   },

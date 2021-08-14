@@ -9,31 +9,34 @@ function NavBar() {
         to="/"
         exact
         className="navBar-brand"
-        activeClassName="text-white"
+        activeClassName="activeLink"
       >
         Cameron Yee
       </NavLink>
       <div className="navLinks">
         <NavLink
           to="/"
+          exact
           className="navLink"
-          activeClassName="text-scarlett"
+          activeClassName="activeLink"
         >
           HOME
         </NavLink>
         <NavLink
-          to="/about"
-          className="navLink"
-          activeClassName="text-scarlett"
-        >
-          ABOUT
-        </NavLink>
-        <NavLink
           to="/project"
+          exact
           className="navLink"
-          activeClassName="text-scarlett"
+          activeClassName="activeLink"
         >
           PROJECTS
+        </NavLink>
+        <NavLink
+          to="/about"
+          exact
+          className="navLink"
+          activeClassName="activeLink"
+        >
+          ABOUT
         </NavLink>
       </div>
     </div>

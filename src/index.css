@@ -10,7 +10,9 @@
   --scarlett: #da0000;
   --main-background: #0A0A0A;
   --grey: #414141;
-  --text-white: #FDF6F0;
+  --text-white: #ffffecea;
+  --project-color: #1A1A1Acc;
+  --paragraph: #FFFFECBF;
 }
 
 /* Miscellaneous */
@@ -18,7 +20,11 @@
 .hover-scarlett:hover {
   color: var(--scarlett);
   transition: .2s;
-  cursor: pointer;
+  cursor: pointer!important;
+}
+body {
+  background-color: var(--main-background);
+  cursor: default;
 }
 
 /* NavBar.js */
@@ -33,8 +39,11 @@
   align-items: center;
 }
 .navbar .navBar-brand {
-  @apply inline-flex font-sans items-center px-3 mr-4 text-text_white hover:text-scarlett text-4xl font-bold tracking-widest;
+  @apply inline-flex font-sans items-center px-3 mr-4 text-text_white text-4xl font-bold tracking-widest;
   transition: .2s;
+}
+.navbar .activeLink {
+  color: var(--scarlett);
 }
 .navbar .navLinks {
   margin-left: auto;
@@ -42,6 +51,9 @@
 .navbar .navLinks .navLink {
   @apply text-xl font-sans inline-flex px-3 items-center rounded leading-3 text-text_white hover:text-scarlett;
   transition: .2s;
+}
+.navbar .navLinks .activeLink {
+  color: var(--scarlett);
 }
 
 /* SocialLinks.js */
@@ -75,10 +87,6 @@
   cursor: pointer;
   transform: scale(1.2);
   transition: 0.15s;
-}
-
-body {
-  background-color: #0A0A0A;
 }
 
 /* Home.js */
@@ -115,7 +123,7 @@ body {
 button {
   background-color: var(--scarlett);
   border: none;
-  color: white;
+  color: var(--text-white);
   padding: 8px 32px;
   text-align: center;
   display: inline-block;
@@ -127,28 +135,23 @@ button {
 
 /* Project.js */
 .projectPage {
-  @apply min-h-screen p-12;
+  @apply min-h-screen p-12 container mx-auto;
   padding-top: 70px;
-  background-color: #0A0A0A;
+  background-color: var(--main-background);
 }
-.projectPage .section {
-  @apply container mx-auto;
-}
-.projectPage .section .title {
+.projectPage .title {
   @apply text-5xl flex justify-center;
+  color: var(--scarlett);
+  padding-bottom: 30px;
 }
-.projectPage .section .subtitle {
-  @apply text-lg text-gray-600 flex justify-center mb-12;
+.projectPage .projectSection .projectSectionName {
+  color: var(--text-white);
 }
-.projectPage .section .grids {
-  @apply grid grid-cols-2 gap-8;
+.projectPage .projectSection .grids {
+  @apply grid grid-cols-3 gap-8;
 }
-.projectPage .section .grids .projectCard {
-  @apply relative rounded-lg shadow-xl bg-white p-16 transition-all hover:bg-black duration-300;
-}
-.projectPage .section .grids .projectCard .projectTitle {
-  @apply text-gray-800 text-3xl font-bold mb-2 hover:text-red-700;
-  width: 40%;
+.projectPage .projectSection .grids .projectCard {
+  @apply relative rounded-lg shadow-xl bg-projectColor p-8;
 }
 
 /* About.js */
