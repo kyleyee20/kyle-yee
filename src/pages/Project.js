@@ -3,7 +3,6 @@ import React from "react";
 function Project() {
   return (
     <main className="projectPage">
-      {/* 2 Project Sections: personal and hackathon */}
       <section className="projectSection">
         <strong>
           <h2 className="projectSectionName">Personal Projects</h2>
