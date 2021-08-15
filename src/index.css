@@ -186,6 +186,7 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
 
 /* About.js */
 .aboutPage {
+  @apply min-h-screen;
   padding-top: 70px;
 }
 .aboutPage .section {
