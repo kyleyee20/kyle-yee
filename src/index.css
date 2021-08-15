@@ -133,11 +133,11 @@ button {
   color: var(--scarlett);
   border-width: 2px!important;
   border-color: var(--scarlett);
-  padding: 8px 28px;
+  padding: 8px 24px;
   margin-top: 4px;
   text-align: center;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   position: relative;
   left: 340px;
   top: 50px;
