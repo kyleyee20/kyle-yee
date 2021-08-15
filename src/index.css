@@ -39,6 +39,7 @@ body, footer {
   display: flex;
   align-items: center;
   z-index: 999!important;
+  opacity: .9;
 }
 .navbar .navBar-brand {
   @apply inline-flex font-sans items-center px-3 mr-4 text-text_white hover:text-scarlett text-3xl font-bold tracking-widest;
