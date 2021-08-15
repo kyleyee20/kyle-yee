@@ -1,11 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 function SocialLinks() {
-  let iconColor = { color: "#FFFFEC66" };
+  const [linkedInColor, setLinkedInColor] = useState("#FFFFEC66");
+  const [githubColor, setGithubColor] = useState("#FFFFEC66");
 
-  // this color when inactive social links #FFFFEC66
-  // this color when hovering social links #CBCBCB
+  let highlightLinkedInColor = () => {
+    setLinkedInColor("#CBCBCB");
+  };
+  let unHighlightLinkedInColor = () => {
+    setLinkedInColor("#FFFFEC66");
+  };
+  
+  let highlightGithubColor = () => {
+    setGithubColor("#CBCBCB");
+  };
+  let unHighlightGithubColor = () => {
+    setGithubColor("#FFFFEC66");
+  };
 
   return (
     <div className="socialLinks">
@@ -13,18 +25,22 @@ function SocialLinks() {
         href="https://www.linkedin.com/in/cam-yee/"
         target="_blank"
         rel="noreferrer"
+        onMouseOver={highlightLinkedInColor}
+        onMouseOut={unHighlightLinkedInColor}
       >
         <div className="LinkedIn">
-          <FaLinkedin style={iconColor} />
+          <FaLinkedin style={{ color: linkedInColor }} />
         </div>
       </a>
-      <a 
-        href="https://github.com/Cameron327" 
-        target="_blank" 
+      <a
+        href="https://github.com/Cameron327"
+        target="_blank"
         rel="noreferrer"
+        onMouseOver={highlightGithubColor}
+        onMouseOut={unHighlightGithubColor}
       >
         <div className="GitHub">
-          <FaGithub style={iconColor} />
+          <FaGithub style={{ color: githubColor }} />
         </div>
       </a>
     </div>
