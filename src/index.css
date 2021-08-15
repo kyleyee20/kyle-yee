@@ -13,6 +13,7 @@
   --text-white: #ffffecea;
   --project-color: #1A1A1Acc;
   --paragraph: #FFFFECBF;
+  --contact-text: #FFFFEC66;
 }
 
 /* Miscellaneous */
@@ -22,7 +23,7 @@
   transition: .2s!important;
   cursor: pointer!important;
 }
-body {
+body, footer {
   background-color: var(--main-background);
   cursor: default;
 }
@@ -92,15 +93,13 @@ body {
 
 /* Home.js */
 .homePage {
-  @apply flex justify-center px-8;
+  @apply flex justify-center px-8 min-h-screen;
   padding-top: 100px;
 }
 .homePage .section {
   @apply rounded-lg p-10;
   position: relative;
   top: 70px;
-  height: 400px;
-  width: 900px;
 }
 .homePage .section h1 {
   color: var(--text-white);
@@ -214,4 +213,19 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
 .aboutPage .section .aboutCard .skills{
   color: var(--text-white);
   font-size: 18px;
+}
+
+/* Footer.js */
+.footerSection .contactInfo{
+  @apply justify-evenly;
+  display: flex;
+  margin: 0 350px;
+  font-size: 15px;
+}
+.footerSection .contactInfo .contact .info{
+  @apply flex items-center justify-start;
+  color: var(--contact-text);
+}
+.footerSection .copyright{
+  color: var(--contact-text);
 }
