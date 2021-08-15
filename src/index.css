@@ -40,7 +40,7 @@ body {
   z-index: 999!important;
 }
 .navbar .navBar-brand {
-  @apply inline-flex font-sans items-center px-3 mr-4 text-text_white hover:text-scarlett text-4xl font-bold tracking-widest;
+  @apply inline-flex font-sans items-center px-3 mr-4 text-text_white hover:text-scarlett text-3xl font-bold tracking-widest;
   transition: .18s;
 }
 .navbar .activeLink {
@@ -127,6 +127,7 @@ button {
   border-radius: 5px;
   color: var(--text-white);
   padding: 8px 32px;
+  margin-top: 4px;
   text-align: center;
   display: inline-block;
   font-size: 16px;
@@ -145,11 +146,10 @@ button {
   margin-top: 30px;
 }
 .projectPage .projectSection .projectSectionName {
-  font-size: 36px;
+  font-size: 40px;
   color: var(--scarlett);
   margin-left: 175px;
   padding: 30px;
-  padding-left: 2rem;
 }
 .projectPage .projectSection .grids {
   @apply grid grid-cols-2 gap-x-14 gap-y-8;
@@ -188,4 +188,29 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
 /* About.js */
 .aboutPage {
   padding-top: 70px;
+}
+.aboutPage .section {
+  @apply grid grid-cols-1;
+  margin-top: 60px;
+}
+.aboutPage .section .aboutCard {
+  @apply relative rounded-lg shadow-xl;
+  margin-left: 375px;
+  margin-right: 375px;
+}
+.aboutPage .section .aboutCard .header{
+  font-size: 40px;
+  color: var(--scarlett);
+  padding-bottom: 40px;
+  text-align: center;
+}
+.aboutPage .section .aboutCard .description{
+  color: var(--text-white);
+  font-size: 18px;
+  text-align: center;
+}
+.aboutPage .section .aboutCard .skills{
+  color: var(--text-white);
+  font-size: 18px;
+  text-align: center;
 }
