@@ -147,7 +147,7 @@ button {
 /* Project.js */
 .projectPage {
   @apply min-h-screen p-12 container mx-auto;
-  padding-top: 70px;
+  padding-top: 50px;
   background-color: var(--main-background);
 }
 .projectPage .projectSection {
@@ -196,7 +196,7 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
 /* About.js */
 .aboutPage {
   @apply min-h-screen;
-  padding-top: 70px;
+  padding-top: 50px;
 }
 .aboutPage .section {
   @apply grid grid-cols-1;

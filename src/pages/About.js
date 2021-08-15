@@ -99,7 +99,7 @@ function About() {
                 rel="noreferrer"
                 className="hover-scarlett"
               >
-                axios.js
+                Axios
               </a>{" "}
               · object-orented programming · data structures · algorithm
               analysis · web-development
