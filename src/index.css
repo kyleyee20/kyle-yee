@@ -216,6 +216,9 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
 }
 
 /* Footer.js */
+.footerSection {
+  margin: 10px;
+}
 .footerSection .contactInfo{
   @apply justify-evenly;
   display: flex;
@@ -228,4 +231,8 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
 }
 .footerSection .copyright{
   color: var(--contact-text);
+  font-size: 15px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
 }
