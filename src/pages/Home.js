@@ -30,22 +30,29 @@ function Home() {
             .
           </h2>
           <h3>
-            Check out my{" "}
-            <a href={resume} target="_blank" rel="noreferrer">
-              <span className="hover-scarlett">résumé</span>
-            </a>{" "}
-            for a brief overview or check out my{" "}
+            Check out the{" "}
             <NavLink to="/project">
-              <span className="hover-scarlett">work</span>
-            </NavLink>
-            !
+              <span className="hover-scarlett">Projects</span>
+            </NavLink>{" "}
+            tab to see some of my work or the{" "}
+            <NavLink to="/about">
+              <span className="hover-scarlett">About</span>
+            </NavLink>{" "}
+            tab to learn more about me!
           </h3>
+          <h4>
+            For an overview, check out my{" "}
+            <a href={resume} target="_blank" rel="noreferrer">
+              <span className="hover-scarlett">resume</span>
+            </a>
+            .
+          </h4>
           <a href={resume} target="_blank" rel="noreferrer">
-            <button>Résumé</button>
+            <button>Resume</button>
           </a>
         </section>
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

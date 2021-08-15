@@ -121,19 +121,26 @@ body, footer {
   position: relative;
   top: 60px;
 }
-button {
-  background-color: var(--scarlett);
-  border: none;
-  border-radius: 5px;
+.homePage .section h4 {
   color: var(--text-white);
-  padding: 8px 32px;
+  font-size: 18px;
+  position: relative;
+  top: 90px;
+}
+button {
+  background-color: var(--main-background);
+  border-radius: 3px;
+  color: var(--scarlett);
+  border-width: 2px!important;
+  border-color: var(--scarlett);
+  padding: 8px 28px;
   margin-top: 4px;
   text-align: center;
   display: inline-block;
   font-size: 16px;
   position: relative;
-  left: 610px;
-  top: 25px;
+  left: 340px;
+  top: 50px;
 }
 
 /* Project.js */
@@ -230,6 +237,7 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
 .footerSection .contactInfo .contact .info{
   @apply flex items-center justify-start;
   color: var(--contact-text);
+  padding: 1px;
 }
 .footerSection .copyright{
   color: var(--contact-text);
