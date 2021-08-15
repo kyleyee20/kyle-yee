@@ -193,24 +193,25 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
   @apply grid grid-cols-1;
   margin-top: 60px;
 }
+.aboutPage .divider {
+  height: 20px;
+}
 .aboutPage .section .aboutCard {
   @apply relative rounded-lg shadow-xl;
   margin-left: 375px;
   margin-right: 375px;
+  text-align: center;
 }
 .aboutPage .section .aboutCard .header{
   font-size: 40px;
   color: var(--scarlett);
-  padding-bottom: 40px;
-  text-align: center;
+  padding-bottom: 30px;
 }
 .aboutPage .section .aboutCard .description{
   color: var(--text-white);
   font-size: 18px;
-  text-align: center;
 }
 .aboutPage .section .aboutCard .skills{
   color: var(--text-white);
   font-size: 18px;
-  text-align: center;
 }

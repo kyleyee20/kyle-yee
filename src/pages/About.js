@@ -19,17 +19,17 @@ function About() {
           </p>
         </div>
       </section>
+      <div className="divider"></div>
       <section className="section">
         <div className="aboutCard">
           <strong>
             <h2 className="header">Skills</h2>
           </strong>
-          <p className="skills">Python, JavaScript, C++, C, HTML, CSS</p>
+          <p className="skills">Python · JavaScript · C++ · C · HTML · CSS</p>
           <p className="skills">
-            Google Firebase, Tailwind CSS, Node.js, React.js, Git, jQuery,
-            Express.js, MongoDB, VIM, Linux/Unix, AJAX, axios.js,
-            object-oriented programming, data structures, algorithm analysis,
-            web-development
+            Google Firebase · Tailwind CSS · Node.js · React.js · Git · jQuery ·
+            Express.js · MongoDB · VIM · Unix · AJAX · axios.js · object-orented
+            programming · data structures · algorithm analysis · web-development
           </p>
         </div>
       </section>
