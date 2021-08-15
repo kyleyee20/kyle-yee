@@ -22,6 +22,7 @@
   color: var(--scarlett)!important;
   transition: .2s!important;
   cursor: pointer!important;
+  text-decoration: underline!important;
 }
 body, footer {
   background-color: var(--main-background);
@@ -202,7 +203,7 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
   margin-top: 60px;
 }
 .aboutPage .divider {
-  height: 20px;
+  height: 5px;
 }
 .aboutPage .section .aboutCard {
   @apply relative rounded-lg shadow-xl;
@@ -219,7 +220,18 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
   color: var(--text-white);
   font-size: 18px;
 }
-.aboutPage .section .aboutCard .skills{
+.aboutPage .section .aboutCard .header2{
+  font-size: 28px;
+  color: var(--scarlett);
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.aboutPage .section .aboutCard .languages{
+  color: var(--text-white);
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.aboutPage .section .aboutCard .technologies{
   color: var(--text-white);
   font-size: 18px;
 }

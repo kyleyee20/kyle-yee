@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../components/Footer.js"
+import Footer from "../components/Footer.js";
 
 function About() {
   return (
@@ -24,20 +24,90 @@ function About() {
         <div className="divider"></div>
         <section className="section">
           <div className="aboutCard">
-            <strong>
-              <h2 className="header">Skills</h2>
-            </strong>
-            <p className="skills">Python · JavaScript · C++ · C · HTML · CSS</p>
-            <p className="skills">
-              Google Firebase · Tailwind CSS · Node.js · React.js · Git · jQuery
-              · Express.js · MongoDB · VIM · Unix · AJAX · axios.js ·
-              object-orented programming · data structures · algorithm analysis
-              · web-development
+            <h2 className="header2">Programming Languages</h2>
+            <p className="languages">
+              Python · JavaScript · C++ · C · HTML · CSS
+            </p>
+            <h2 className="header2">Technologies/Frameworks</h2>
+            <p className="technologies">
+              <a
+                href="https://firebase.google.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="hover-scarlett"
+              >
+                Google Firebase
+              </a>{" "}
+              ·{" "}
+              <a
+                href="https://tailwindcss.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="hover-scarlett"
+              >
+                Tailwind CSS
+              </a>{" "}
+              ·{" "}
+              <a
+                href="https://nodejs.org/en/"
+                target="_blank"
+                rel="noreferrer"
+                className="hover-scarlett"
+              >
+                Node.js
+              </a>{" "}
+              ·{" "}
+              <a
+                href="https://reactjs.org/"
+                target="_blank"
+                rel="noreferrer"
+                className="hover-scarlett"
+              >
+                React.js
+              </a>{" "}
+              · Git ·{" "}
+              <a
+                href="https://jquery.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="hover-scarlett"
+              >
+                jQuery
+              </a>{" "}
+              ·{" "}
+              <a
+                href="https://expressjs.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="hover-scarlett"
+              >
+                Express.js
+              </a>{" "}
+              ·{" "}
+              <a
+                href="https://www.mongodb.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="hover-scarlett"
+              >
+                MongoDB
+              </a>{" "}
+              · VIM · Unix · AJAX ·{" "}
+              <a
+                href="https://axios-http.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="hover-scarlett"
+              >
+                axios.js
+              </a>{" "}
+              · object-orented programming · data structures · algorithm
+              analysis · web-development
             </p>
           </div>
         </section>
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
