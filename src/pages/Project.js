@@ -10,7 +10,24 @@ function Project() {
         </strong>
         <div className="grids">
           <div className="projectCard">
-            <h3 className="projectTitle">Apartment Finder</h3>
+            <h3 className="projectTitle">
+              <a
+                href="https://cameron327.github.io/simon-says-game/"
+                target="_blank"
+                rel="noreferrer"
+                className="hover-scarlett"
+              >
+                Simon-Says Game
+              </a>
+            </h3>
+            <a
+              href="https://cameron327.github.io/simon-says-game/"
+              target="_blank"
+              rel="noreferrer"
+              className="hover-scarlett projectLink"
+            >
+              Check it out!
+            </a>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at
               tincidunt arcu, at dapibus nisl. Duis auctor dapibus accumsan.
@@ -20,7 +37,24 @@ function Project() {
             </p>
           </div>
           <div className="projectCard">
-            <h3 className="projectTitle">Smart and Safe Security System</h3>
+            <h3 className="projectTitle">
+              <a
+                href="https://cameron327.github.io/DrumKit/"
+                target="_blank"
+                rel="noreferrer"
+                className="hover-scarlett"
+              >
+                Drum Simulator
+              </a>
+            </h3>
+            <a
+              href="https://cameron327.github.io/DrumKit/"
+              target="_blank"
+              rel="noreferrer"
+              className="hover-scarlett projectLink"
+            >
+              Check it out!
+            </a>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at
               tincidunt arcu, at dapibus nisl. Duis auctor dapibus accumsan.
@@ -35,11 +69,27 @@ function Project() {
         <strong>
           <h2 className="projectSectionName">Hackathon Projects</h2>
         </strong>
+        {/* Link the githubs and the devposts? */}
         <div className="grids">
           <div className="projectCard">
-            {/* also make the title a link to the devpost */}
-            <h3 className="projectTitle">Apartment Finder</h3>
-            {/* put the devpost link */}
+            <h3 className="projectTitle">
+              <a
+                href="https://devpost.com/software/apartment-value-estimator"
+                target="_blank"
+                rel="noreferrer"
+                className="hover-scarlett"
+              >
+                Apartment-Finder Prototype
+              </a>
+            </h3>
+            <a
+              href="https://devpost.com/software/apartment-value-estimator"
+              target="_blank"
+              rel="noreferrer"
+              className="hover-scarlett projectLink"
+            >
+              Check it out!
+            </a>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at
               tincidunt arcu, at dapibus nisl. Duis auctor dapibus accumsan.
@@ -49,7 +99,24 @@ function Project() {
             </p>
           </div>
           <div className="projectCard">
-            <h3 className="projectTitle">Smart and Safe Security System</h3>
+            <h3 className="projectTitle">
+              <a
+                href="https://devpost.com/software/ai-on-you"
+                target="_blank"
+                rel="noreferrer"
+                className="hover-scarlett"
+              >
+                Smart and Safe Security System
+              </a>
+            </h3>
+            <a
+              href="https://devpost.com/software/ai-on-you"
+              target="_blank"
+              rel="noreferrer"
+              className="hover-scarlett projectLink"
+            >
+              Check it out!
+            </a>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at
               tincidunt arcu, at dapibus nisl. Duis auctor dapibus accumsan.
@@ -59,7 +126,24 @@ function Project() {
             </p>
           </div>
           <div className="projectCard">
-            <h3 className="projectTitle">Learning Resource Library</h3>
+            <h3 className="projectTitle">
+              <a
+                href="https://devpost.com/software/lurn-sfn5g3"
+                target="_blank"
+                rel="noreferrer"
+                className="hover-scarlett"
+              >
+                Learning Resource Library
+              </a>
+            </h3>
+            <a
+              href="https://devpost.com/software/lurn-sfn5g3"
+              target="_blank"
+              rel="noreferrer"
+              className="hover-scarlett projectLink"
+            >
+              Check it out!
+            </a>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at
               tincidunt arcu, at dapibus nisl. Duis auctor dapibus accumsan.

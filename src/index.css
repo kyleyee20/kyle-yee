@@ -18,8 +18,8 @@
 /* Miscellaneous */
 /* Use for everwhere that isn't the navlink */
 .hover-scarlett:hover {
-  color: var(--scarlett);
-  transition: .2s;
+  color: var(--scarlett)!important;
+  transition: .2s!important;
   cursor: pointer!important;
 }
 body {
@@ -37,6 +37,7 @@ body {
   background-color: var(--main-background);
   display: flex;
   align-items: center;
+  z-index: 999!important;
 }
 .navbar .navBar-brand {
   @apply inline-flex font-sans items-center px-3 mr-4 text-text_white hover:text-scarlett text-4xl font-bold tracking-widest;
@@ -158,21 +159,30 @@ button {
 Transition on the hover tag is for mouse in and transition in the regular tag is for mouse out */
 .projectPage .projectSection .grids .projectCard {
   @apply relative rounded-lg shadow-xl bg-projectColor p-8;
-  transition: .3s;
+  transition: .25s;
+  padding-top: 1.5rem;
 }
 .projectPage .projectSection .grids .projectCard:hover{
   transform: scale(1.025);
-  transition: 0.3s;
+  transition: 0.25s;
 }
 .projectPage .projectSection .grids .projectCard .projectTitle {
   font-size: 24px;
   color: var(--text-white);
   text-align: left;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  transition: .18s;
+}
+.projectPage .projectSection .grids .projectCard .projectLink {
+  color: var(--paragraph);
+  text-decoration: underline;
+  margin-bottom: 23px;
+  transition: .18s;
 }
 .projectPage .projectSection .grids .projectCard p {
   @apply text-paragraph;
   text-align: left;
+  padding-top: 23px;
 }
 
 /* About.js */

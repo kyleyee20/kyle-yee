@@ -15,11 +15,22 @@ function Home() {
           </strong>
           .
         </h1>
-        <h2>I'm a Full Stack Developer and a Computer Science major at UCD.</h2>
+        <h2>
+          I'm a Full Stack Developer and a Computer Science major at{" "}
+          <a
+            href="https://www.ucdavis.edu/"
+            target="_blank"
+            rel="noreferrer"
+            className="hover-scarlett"
+          >
+            UCD
+          </a>
+          .
+        </h2>
         <h3>
           Check out my{" "}
           <a href={resume} target="_blank" rel="noreferrer">
-            <span className="hover-scarlett">resume</span>
+            <span className="hover-scarlett">résumé</span>
           </a>{" "}
           for a brief overview or check out my{" "}
           <NavLink to="/project">
@@ -28,7 +39,7 @@ function Home() {
           !
         </h3>
         <a href={resume} target="_blank" rel="noreferrer">
-          <button>Resume</button>
+          <button>Résumé</button>
         </a>
       </section>
     </main>
