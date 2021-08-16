@@ -67,7 +67,7 @@ function Project() {
         </section>
         <section className="projectSection">
           <strong>
-            <h2 className="projectSectionName">Hackathon Projects</h2>
+            <h2 id="HackathonTitle" className="projectSectionName">Hackathon Projects</h2>
           </strong>
           {/* Link the githubs and the devposts? */}
           <div className="grids">

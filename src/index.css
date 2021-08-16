@@ -22,7 +22,7 @@
   color: var(--scarlett)!important;
   transition: .2s!important;
   cursor: pointer!important;
-  text-decoration: underline!important;
+  /* text-decoration: underline!important; */
 }
 body, footer {
   background-color: var(--main-background);
@@ -99,7 +99,7 @@ body, footer {
 /* Home.js */
 .homePage {
   @apply flex justify-center px-8 min-h-screen;
-  padding-top: 100px;
+  padding-top: 90px;
 }
 .homePage .section {
   @apply rounded-lg p-10;
@@ -143,8 +143,8 @@ button {
   display: inline-block;
   font-size: 18px;
   position: relative;
-  left: 340px;
-  top: 50px;
+  left: 41%;
+  top: 9.5%;
 }
 
 /* Project.js */
@@ -210,8 +210,7 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
 }
 .aboutPage .section .aboutCard {
   @apply relative rounded-lg shadow-xl;
-  margin-left: 24%;
-  margin-right: 24%;
+  margin: 0 24%;
   text-align: center;
 }
 .aboutPage .section .aboutCard .header{
@@ -264,6 +263,7 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
 }
 
 /* Responsiveness */
+/* Horizontal iPad */
 @media screen and (max-width: 1200px){
   /* Home.js */
   .homePage .section {
@@ -284,4 +284,58 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
   .aboutPage .section .aboutCard {
     margin: 0 15%;
   }
+}
+/* Vertical iPad */
+@media screen and (max-width: 850px){
+  /* NavBar.js */
+  .navbar .navBar-brand {
+    @apply text-xl;
+  }
+  .navbar .navLinks .navLink {
+    @apply text-lg;
+  }
+
+  /* Home.js */
+  .homePage {
+    padding-top: 50px;
+  }
+  .homePage .section {
+    top: 0;
+    margin: 0 5%;
+  }
+  .homePage .section h1 {
+    font-size: 40px;
+  }
+  .homePage .section h2 {
+    font-size: 25px;
+  }
+  .homePage .section h3 {
+    font-size: 20px;
+  }
+  .homePage .section h4 {
+    top: 80px;
+    font-size: 17px;
+  }
+  button {
+    padding: 8px 24px;
+    margin-top: 4px;
+    font-size: 17px;
+    position: relative;
+    top: 20%;
+    left: 0;
+  }
+
+  /* Project.js */
+  .projectPage .projectSection .projectSectionName {
+    font-size: 28px;
+    margin-left: 8%;
+  }
+  .projectPage .projectSection .grids {
+    @apply grid grid-cols-1 gap-y-6;
+    margin: 0 8%;
+  }
+  .projectPage .projectSection .grids .projectCard .projectTitle {
+    font-size: 21px;
+  }
+  
 }
