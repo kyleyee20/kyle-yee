@@ -262,3 +262,20 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
   display: flex;
   justify-content: center;
 }
+
+/* Responsiveness */
+@media screen and (max-width: 1200px){
+  .homePage .section {
+    top: 10px;
+    margin: 0 5%;
+  }
+
+  /* Project.js */
+  .projectPage .projectSection .projectSectionName {
+    margin-left: 8%;
+  }
+  .projectPage .projectSection .grids {
+    @apply grid grid-cols-2 gap-x-10 gap-y-6;
+    margin: 0 8%;
+  }
+}
