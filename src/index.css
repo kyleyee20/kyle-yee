@@ -61,33 +61,33 @@ body, footer {
 }
 
 /* SocialLinks.js */
-.socialLinks {
+.cam-socialLinks {
   position: fixed;
   bottom: 30px;
   left: 20px;
-  display: flex;
+  display: flex!important;
   flex-direction: column;
   font-size: 2.25rem;
   z-index: 5;
 }
-.socialLinks .LinkedIn {
+.cam-socialLinks .cam-LinkedIn {
   padding: 15px;
   position: fixed;
   bottom: 95px;
   left: 20px;
 }
-.socialLinks .GitHub {
+.cam-socialLinks .cam-GitHub {
   padding: 15px;
   position: fixed;
   bottom: 30px;
   left: 20px;
 }
-.LinkedIn:hover {
+.cam-LinkedIn:hover {
   cursor: pointer;
   transform: scale(1.2);
   transition: 0.15s;
 }
-.GitHub:hover {
+.cam-GitHub:hover {
   cursor: pointer;
   transform: scale(1.2);
   transition: 0.15s;

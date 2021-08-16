@@ -20,7 +20,7 @@ function SocialLinks() {
   };
 
   return (
-    <div className="socialLinks">
+    <div className="cam-socialLinks">
       <a
         href="https://www.linkedin.com/in/cam-yee/"
         target="_blank"
@@ -28,7 +28,7 @@ function SocialLinks() {
         onMouseOver={highlightLinkedInColor}
         onMouseOut={unHighlightLinkedInColor}
       >
-        <div className="LinkedIn">
+        <div className="cam-LinkedIn">
           <FaLinkedin style={{ color: linkedInColor }} />
         </div>
       </a>
@@ -39,7 +39,7 @@ function SocialLinks() {
         onMouseOver={highlightGithubColor}
         onMouseOut={unHighlightGithubColor}
       >
-        <div className="GitHub">
+        <div className="cam-GitHub">
           <FaGithub style={{ color: githubColor }} />
         </div>
       </a>
