@@ -265,6 +265,7 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
 
 /* Responsiveness */
 @media screen and (max-width: 1200px){
+  /* Home.js */
   .homePage .section {
     top: 10px;
     margin: 0 5%;
@@ -277,5 +278,10 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
   .projectPage .projectSection .grids {
     @apply grid grid-cols-2 gap-x-10 gap-y-6;
     margin: 0 8%;
+  }
+
+  /* About.js */
+  .aboutPage .section .aboutCard {
+    margin: 0 15%;
   }
 }
