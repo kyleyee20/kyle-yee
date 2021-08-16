@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  FaEnvelope,
-  FaPhone,
-  FaLinkedin,
-  FaGithub,
-} from "react-icons/fa";
+import { FaEnvelope, FaPhone, FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -25,20 +20,32 @@ function Footer() {
             </p>
             <p className="info">(415) 734-1731</p>
           </div>
-          <div className="contact">
-            <p className="info">
-              LinkedIn_
-              <FaLinkedin />
-            </p>
-            <p className="info">cam-yee</p>
-          </div>
-          <div className="contact">
-            <p className="info">
-              GitHub_
-              <FaGithub />
-            </p>
-            <p className="info">Cameron327</p>
-          </div>
+          <a
+            href="https://www.linkedin.com/in/cam-yee/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="contact">
+              <p className="info hover-scarlett">
+                LinkedIn_
+                <FaLinkedin />
+              </p>
+              <p className="info hover-scarlett">cam-yee</p>
+            </div>
+          </a>
+          <a
+            href="https://github.com/Cameron327"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="contact">
+              <p className="info hover-scarlett">
+                GitHub_
+                <FaGithub />
+              </p>
+              <p className="info hover-scarlett">Cameron327</p>
+            </div>
+          </a>
         </div>
 
         <div className="copyright">
