@@ -237,6 +237,7 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
 .aboutPage .section .aboutCard .technologies{
   color: var(--text-white);
   font-size: 18px;
+  padding-bottom: 15px;
 }
 
 /* Footer.js */
