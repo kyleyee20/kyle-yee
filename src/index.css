@@ -320,8 +320,9 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
     padding-top: 50px;
   }
   .homePage .section {
-    top: 0;
+    top: 5px;
     margin: 0 5%;
+    height: 600px
   }
   .homePage .section h1 {
     font-size: 40px;
@@ -338,6 +339,9 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
   }
   button {
     left: 0;
+    top: 100px;
+    padding: 5px 18px;
+    font-size: 17px;
   }
 
   /* Project.js */
