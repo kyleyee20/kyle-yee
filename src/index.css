@@ -28,6 +28,9 @@ body, footer {
   background-color: var(--main-background);
   cursor: default;
 }
+.test-text {
+  color: var(--text-white);
+}
 
 /* NavBar.js */
 .navbar {
@@ -156,12 +159,12 @@ button {
 .projectPage .projectSection .projectSectionName {
   font-size: 40px;
   color: var(--scarlett);
-  margin-left: 175px;
+  margin-left: 12%;
   padding: 30px;
 }
 .projectPage .projectSection .grids {
   @apply grid grid-cols-2 gap-x-14 gap-y-8;
-  margin: 0 175px;
+  margin: 0 12%;
 }
 /* to mimick mouseout, you have to add the transition element to the html tag.
 Transition on the hover tag is for mouse in and transition in the regular tag is for mouse out */
@@ -207,8 +210,8 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
 }
 .aboutPage .section .aboutCard {
   @apply relative rounded-lg shadow-xl;
-  margin-left: 375px;
-  margin-right: 375px;
+  margin-left: 24%;
+  margin-right: 24%;
   text-align: center;
 }
 .aboutPage .section .aboutCard .header{
@@ -243,7 +246,7 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
 .footerSection .contactInfo{
   @apply justify-evenly;
   display: flex;
-  margin: 0 350px;
+  margin: 0 15%;
   font-size: 15px;
 }
 .footerSection .contactInfo .contact .info{
