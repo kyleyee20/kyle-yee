@@ -62,6 +62,62 @@ body, footer {
 .navbar .navLinks .activeLink {
   color: var(--scarlett);
 }
+/* NavMenu.js */
+.hamburger {
+  background: none;
+  font-size: 1.75rem;
+  color: var(--text-white);
+}
+.nav-menu{
+  background-color: var(--grey);
+  height: 100vh;
+  width: 200px; 
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+.nav-menu.active{
+  left: 0;
+  transition: 350ms;
+}
+.nav-menu .nav-menu-items {
+  width: 100%;
+}
+.nav-menu .nav-menu-items .x{
+  background-color: var(--grey);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: none;
+  font-size: 1.75rem;
+  color: var(--text-white);
+  margin: 15px 40px;
+}
+.nav-menu .nav-menu-items .navText{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 0 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+.nav-menu .nav-menu-items .navText a{
+  text-decoration: none;
+  font-size: 18px;
+  height: 100%;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+  color: var(--text-white);
+}
+.span {
+  margin-left: 16px;
+}
 
 /* SocialLinks.js */
 .cam-socialLinks {
