@@ -163,6 +163,7 @@ body, footer {
   @apply rounded-lg p-10;
   position: relative;
   top: 70px;
+  height: 580px;
 }
 .homePage .section h1 {
   color: var(--text-white);
