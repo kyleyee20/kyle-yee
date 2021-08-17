@@ -465,11 +465,14 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
 
   /* Project.js */
   .projectPage .projectSection .projectSectionName {
-    font-size: 23px;
+    font-size: 25px;
     margin-left: 0;
   }
   .projectPage .projectSection .grids .projectCard .projectTitle {
     font-size: 20px;
+  }
+  #HackathonTitle {
+    font-size: 24px;
   }
 
   /* About.js */
