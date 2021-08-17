@@ -74,20 +74,23 @@ body, footer {
 .nav-menu{
   background-color: var(--grey);
   height: 100vh;
-  width: 175px; 
+  width: 160px; 
   display: flex;
   justify-content: center;
   position: fixed;
   top: 0;
   right: -100%;
   transition: 850ms;
+  opacity: 1;
 }
 .nav-menu.active{
   right: 0;
   transition: 350ms;
+  opacity: 1;
 }
 .nav-menu .nav-menu-items {
   width: 100%;
+  opacity: 1;
 }
 .nav-menu .nav-menu-items .x{
   background-color: var(--grey);
@@ -487,5 +490,22 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
     font-size: 24px;
     padding-top: 10px;
     padding-bottom: 15px;
+  }
+
+  /* Footer.js */
+  .footerSection .contactInfo{
+    @apply items-center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 15%;
+    font-size: 15px;
+  }
+  .footerSection .contactInfo .contact {
+    padding: 8px 0;
+  }
+  .footerSection .contactInfo .contact .info{
+    @apply flex items-center justify-center;
+    color: var(--contact-text);
+    padding: 1px;
   }
 }

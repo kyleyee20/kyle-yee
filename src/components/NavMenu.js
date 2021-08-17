@@ -13,15 +13,13 @@ function NavMenu() {
 
   return (
     <div className="navMenu">
-      <Link className="hamburger">
+      <div className="hamburger">
         <FaBars onClick={toggleSidebar} />
-      </Link>
+      </div>
       <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
-        <ul className="nav-menu-items" onClick={toggleSidebar}>
-          <li className="x">
-            <Link>
-              <AiOutlineClose />
-            </Link>
+        <ul className="nav-menu-items" >
+          <li className="x" onClick={toggleSidebar}>
+            <AiOutlineClose />
           </li>
           {SidebarData.map((item, index) => {
             return (
