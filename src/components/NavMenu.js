@@ -23,7 +23,7 @@ function NavMenu() {
           </li>
           {SidebarData.map((item, index) => {
             return (
-              <li key={index} className={item.cName}>
+              <li key={index} className={item.cName} onClick={toggleSidebar}>
                 <Link to={item.path}>
                   <span className="span hover-scarlett">{item.title}</span>
                 </Link>
