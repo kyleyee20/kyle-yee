@@ -13,13 +13,13 @@ function NavMenu() {
 
   return (
     <div className="navMenu">
-      <Link to="#" className="hamburger">
+      <Link className="hamburger">
         <FaBars onClick={toggleSidebar} />
       </Link>
       <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
         <ul className="nav-menu-items" onClick={toggleSidebar}>
           <li className="x">
-            <Link to="#">
+            <Link>
               <AiOutlineClose />
             </Link>
           </li>
@@ -27,7 +27,7 @@ function NavMenu() {
             return (
               <li key={index} className={item.cName}>
                 <Link to={item.path}>
-                  <span className="span">{item.title}</span>
+                  <span className="span hover-scarlett">{item.title}</span>
                 </Link>
               </li>
             );

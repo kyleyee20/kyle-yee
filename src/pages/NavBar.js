@@ -14,7 +14,6 @@ function NavBar() {
       >
         Cameron Yee
       </NavLink>
-      <NavMenu/>
       <div className="navLinks">
         <NavLink
           to="/"
@@ -41,6 +40,7 @@ function NavBar() {
           ABOUT
         </NavLink>
       </div>
+      <NavMenu/>
     </div>
   );
 }
