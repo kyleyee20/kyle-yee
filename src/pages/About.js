@@ -101,7 +101,7 @@ function About() {
               >
                 Axios
               </a>{" "}
-              · object-orented programming · data structures · algorithm
+              · object-oriented programming · data structures · algorithm
               analysis · web-development
             </p>
           </div>

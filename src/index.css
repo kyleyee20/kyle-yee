@@ -362,6 +362,18 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
   /* NavBar.js */
   /* Put the navlinks into a hamburger menu */
 
+  /* SocialLinks.js */
+  .cam-socialLinks .cam-LinkedIn {
+    padding: 8px;
+    bottom: 85px;
+    left: 10px;
+  }
+  .cam-socialLinks .cam-GitHub {
+    padding: 8px;
+    bottom: 20px;
+    left: 10px;
+  }
+
   /* Home.js */
   .homePage {
     padding-top: 50px;
