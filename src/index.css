@@ -288,7 +288,7 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
 @media screen and (max-width: 850px){
   /* NavBar.js */
   .navbar .navBar-brand {
-    @apply text-xl;
+    @apply text-2xl;
   }
   .navbar .navLinks .navLink {
     @apply text-lg;
@@ -355,5 +355,31 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
   }
   .projectPage .projectSection .grids .projectCard .projectTitle {
     font-size: 21px;
+  }
+}
+/* iPhone XS */
+@media screen and (max-width: 430px){
+  /* NavBar.js */
+  /* Put the navlinks into a hamburger menu */
+
+  /* Home.js */
+  .homePage {
+    padding-top: 50px;
+  }
+  .homePage .section {
+    margin: 0 2.5%;
+  }
+  .homePage .section h1 {
+    font-size: 25px;
+  }
+  .homePage .section h2 {
+    font-size: 20px;
+  }
+  .homePage .section h3 {
+    font-size: 17px;
+  }
+  .homePage .section h4 {
+    top: 80px;
+    font-size: 17px;
   }
 }
