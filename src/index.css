@@ -391,4 +391,18 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
   .projectPage .projectSection .grids .projectCard .projectTitle {
     font-size: 20px;
   }
+
+  /* About.js */
+  .aboutPage .section .aboutCard .header{
+    font-size: 30px;
+    padding-bottom: 25px;
+  }
+  .aboutPage .section .aboutCard .description{
+    font-size: 17px;
+  }
+  .aboutPage .section .aboutCard .header2{
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
 }
