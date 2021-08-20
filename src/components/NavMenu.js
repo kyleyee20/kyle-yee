@@ -16,6 +16,11 @@ function NavMenu() {
       <div className="hamburger">
         <FaBars onClick={toggleSidebar} />
       </div>
+      {/* Popup background used to close popups by clicking outside of a popup. In this case, clicking outside of the menu */}
+      {sidebar ? (
+        <div className="popupBackground" onClick={toggleSidebar} />
+      ) : null}
+
       <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
         <ul className="nav-menu-items">
           <li className="x" onClick={toggleSidebar}>

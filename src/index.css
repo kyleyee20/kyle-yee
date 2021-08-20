@@ -34,6 +34,14 @@ body, footer {
 .activeLink {
   color: var(--scarlett);
 }
+.popupBackground {
+  position :fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 998;
+}
 
 /* NavBar.js */
 .navbar {
@@ -85,11 +93,13 @@ body, footer {
   right: -100%;
   transition: 850ms;
   opacity: 1;
+  z-index: 999;
 }
 .nav-menu.active{
   right: 0;
   transition: 350ms;
   opacity: 1;
+  z-index: 999;
 }
 .nav-menu .nav-menu-items {
   width: 100%;
