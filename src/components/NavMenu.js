@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import { SidebarData } from "./SidebarData.js";
+import { SidebarData } from "../data/SidebarData.js";
 
 function NavMenu() {
   const [sidebar, setSidebar] = useState(false);

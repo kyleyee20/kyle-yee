@@ -1,4 +1,6 @@
 import React from "react";
+import PersonalProjectCard from "../components/PersonalProjectCard.js";
+import { PersonalProjectData } from "../data/ProjectData.js";
 import Footer from "../components/Footer.js";
 
 function Project() {
@@ -10,64 +12,23 @@ function Project() {
             <h2 className="projectSectionName">Personal Projects</h2>
           </strong>
           <div className="grids">
-            <div className="projectCard">
-              <h3 className="projectTitle">
-                <a
-                  href="https://cameron327.github.io/simon-says-game/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="hover-scarlett"
-                >
-                  Simon-Says Game
-                </a>
-              </h3>
-              <a
-                href="https://cameron327.github.io/simon-says-game/"
-                target="_blank"
-                rel="noreferrer"
-                className="hover-scarlett projectLink"
-              >
-                Check it out!
-              </a>
-              <p>
-                In this game, you have to mimick the pattern of the tiles! Each
-                round, a new tile is added to the pattern and indicated by a
-                flashing light. I programmed this game using JavaScript and
-                JQuery to control on-screen clicks and store user input into
-                arrays in order to keep track of patterns.
-              </p>
-            </div>
-            <div className="projectCard">
-              <h3 className="projectTitle">
-                <a
-                  href="https://cameron327.github.io/DrumKit/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="hover-scarlett"
-                >
-                  Drum Simulator
-                </a>
-              </h3>
-              <a
-                href="https://cameron327.github.io/DrumKit/"
-                target="_blank"
-                rel="noreferrer"
-                className="hover-scarlett projectLink"
-              >
-                Check it out!
-              </a>
-              <p>
-                This website simulates drums! The drum buttons are activated
-                with keyboard clicks or mouse clicks. The user input is detected
-                with JQuery and stores them into variables. Once stored, it
-                calls a function that plays the respective drum sounds.
-              </p>
-            </div>
+            {PersonalProjectData.map((project, index) => {
+              return (
+                <PersonalProjectCard
+                  key={index}
+                  title={project.title}
+                  description={project.description}
+                  githubLink={project.githubLink}
+                />
+              );
+            })}
           </div>
         </section>
         <section className="projectSection">
           <strong>
-            <h2 id="HackathonTitle" className="projectSectionName">Hackathon Projects</h2>
+            <h2 id="HackathonTitle" className="projectSectionName">
+              Hackathon Projects
+            </h2>
           </strong>
           {/* Link the githubs and the devposts? */}
           <div className="grids">
