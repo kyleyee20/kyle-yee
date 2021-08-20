@@ -5,6 +5,7 @@ import Project from "./pages/Project.js";
 import NavBar from "./pages/NavBar.js";
 import SocialLinks from "./components/SocialLinks.js";
 import ScrollToTop from "./components/ScrollToTop.js";
+import Footer from "./components/Footer.js"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route component={Project} path="/project" />
       </Switch>
       <SocialLinks />
+      <Footer/>
     </BrowserRouter>
   );
 }

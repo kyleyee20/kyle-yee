@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Footer from "../components/Footer.js";
 // tailwind just knows to get it from the index.css file without importing it?
 // import "../index.css";
 import resume from "../files/resume.pdf";
@@ -52,7 +51,6 @@ function Home() {
           </a>
         </section>
       </main>
-      <Footer />
     </div>
   );
 }

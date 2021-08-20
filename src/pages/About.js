@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../components/Footer.js";
 
 function About() {
   return (
@@ -107,7 +106,6 @@ function About() {
           </div>
         </section>
       </main>
-      <Footer />
     </div>
   );
 }
