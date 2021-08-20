@@ -13,3 +13,25 @@ export const PersonalProjectData = [
     githubLink: "https://cameron327.github.io/DrumKit/",
   },
 ];
+
+export const HackathonProjectData = [
+  {
+    title: "Apartment-Finder Prototype",
+    description:
+      "Built apartment-finder prototype that won first place out of 400+ participants for Best Use of UiPath. Quickly adapted to learn and implement data-scraping, python and its libraries, and k-means clustering to build a working apartment-finder in under 24 hours.",
+
+    devpostLink: "https://devpost.com/software/apartment-value-estimator",
+  },
+  {
+    title: "Smart and Safe Security System",
+    description:
+      "Designed a web page to use the webcam to survey an area and gather data on the number of people and relays said data to a database to determine whether an area is too crowded for comfort. Quickly adapted to learn and utilize React.js, Node.js, HTML, CSS, and JavaScript to build the security web page while also utilizing the machine learning capabilities of tensorflow.js to detect people in frame.",
+    devpostLink: "https://devpost.com/software/ai-on-you",
+  },
+  {
+    title: "Learning Resource Library",
+    description:
+      "Developed web app that acts as a learning resource library for college students by compiling notes on classes, learning guides, etc. including a search system using tags and keywords. Implemented SQL CockroachDB to store the table containing the tag mappings to the files, Google Firebase to store the files for backend, and implemented React.js and Material.ui for frontend.",
+    devpostLink: "https://devpost.com/software/lurn-sfn5g3",
+  },
+];
