@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 // import style from "./style.module.css";
 import NavMenu from "../components/NavMenu.js"
-
+ 
 function NavBar() {
   return (
     <div className="navbar">

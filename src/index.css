@@ -31,6 +31,9 @@ body, footer {
 .test-text {
   color: var(--text-white);
 }
+.activeLink {
+  color: var(--scarlett);
+}
 
 /* NavBar.js */
 .navbar {
@@ -111,7 +114,7 @@ body, footer {
   list-style: none;
   height: 45px;
 }
-.nav-menu .nav-menu-items .navText a{
+.nav-menu .nav-menu-items .navText .navLink {
   text-decoration: none;
   font-size: 18px;
   height: 100%;
@@ -120,10 +123,11 @@ body, footer {
   align-items: center;
   padding: 0 16px;
   border-radius: 4px;
+  margin-left: 16px;
   color: var(--text-white);
 }
-.span {
-  margin-left: 16px;
+.nav-menu .nav-menu-items .navText .activeLink {
+  color: var(--scarlett);
 }
 
 /* SocialLinks.js */
