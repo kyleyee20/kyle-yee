@@ -21,6 +21,7 @@ function Project() {
                   description={project.description}
                   hosted={project.hosted}
                   hostedLink={project.hostedLink}
+                  code={project.code}
                 />
               );
             })}

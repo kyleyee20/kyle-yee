@@ -261,6 +261,15 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
   padding-bottom: 10px;
   transition: .18s;
 }
+.projectPage .projectSection .grids .projectCard .sourceCodeIconContainer {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 2rem;
+  margin: 1.75rem;
+  cursor: pointer;
+  color: var(--contact-text);
+}
 .projectPage .projectSection .grids .projectCard .projectLink {
   color: var(--paragraph);
   text-decoration: underline;

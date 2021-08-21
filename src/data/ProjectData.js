@@ -6,6 +6,7 @@ export const PersonalProjectData = [
 
     hosted: true,
     hostedLink: "https://cameron327.github.io/simon-says-game/",
+    code: "https://github.com/Cameron327/simon-says-game",
   },
   {
     title: "Drum Simulator",
@@ -13,6 +14,7 @@ export const PersonalProjectData = [
       "This website simulates drums! The drum buttons are activated with keyboard clicks or mouse clicks. The user input is detected with JQuery and stores them into variables. Once stored, it calls a function that plays the respective drum sounds.",
     hosted: true,
     hostedLink: "https://cameron327.github.io/DrumKit/",
+    code: "https://github.com/Cameron327/DrumKit",
   },
   {
     title: "Weather App",
@@ -20,6 +22,7 @@ export const PersonalProjectData = [
       "A multipurpose weather app that shows current/future forecasts while also showing wind speed and humidity! The data is fetched from a third-party source (A Weather API) using axios, an http client used to make API calls. This allwows users to access information about the weather through their source and use it however. I displayed the data on the front-end using React.js.",
     hosted: true,
     hostedLink: "https://cam-weather-app.netlify.app/",
+    code: "https://github.com/Cameron327/WeatherApp",
   },
 ];
 

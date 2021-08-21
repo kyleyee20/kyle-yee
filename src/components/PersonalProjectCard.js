@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa";
 
 function PersonalProjectCard(props) {
   return (
@@ -17,6 +18,10 @@ function PersonalProjectCard(props) {
           props.title
         )}
       </h3>
+      {/* Insert github icon here that leads to source code */}
+      <a href={props.code} target="_blank" rel="noreferrer" className="sourceCodeIconContainer">
+        <FaGithub/>
+      </a>
       {props.hosted ? (
         <a
           href={props.hostedLink}
