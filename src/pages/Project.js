@@ -19,6 +19,7 @@ function Project() {
                   key={index}
                   title={project.title}
                   description={project.description}
+                  hosted={project.hosted}
                   hostedLink={project.hostedLink}
                 />
               );
