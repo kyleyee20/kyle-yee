@@ -24,6 +24,14 @@ export const PersonalProjectData = [
     hostedLink: "https://cam-weather-app.netlify.app/",
     code: "https://github.com/Cameron327/WeatherApp",
   },
+  {
+    title: "Slack Apps/Bots",
+    description:
+      "Slack is a popular messaging platform used in the work industry. A Slack App is a feature you add to Slack where you integrate different kinds of technologies to create a variety of features. Created multiple Slack Apps over the span of 5 weeks including a Translator App (translates Slack messages to any langauage by communicating with the Google Translate API), a GitHub notifier (notifies you through Slack if someone interacts with your GitHub profile), a Poll Creater (able to create polls and send to group chats), etc. Used JavaScript, axios, express.js, webhooks, and node.js to implement these different features.",
+    hosted: false,
+    hostedLink: "",
+    code: "https://github.com/Cameron327/creating-slack-apps",
+  },
 ];
 
 export const HackathonProjectData = [

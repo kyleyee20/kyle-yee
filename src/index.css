@@ -14,6 +14,7 @@
   --project-color: #1A1A1Acc;
   --paragraph: #FFFFECBF;
   --contact-text: #FFFFEC66;
+  --icon-hover: #CBCBCB;
 }
 
 /* Miscellaneous */
@@ -270,6 +271,9 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
   cursor: pointer;
   color: var(--contact-text);
 }
+.projectPage .projectSection .grids .projectCard .sourceCodeIconContainer:hover {
+  color: var(--icon-hover);
+}
 .projectPage .projectSection .grids .projectCard .projectLink {
   color: var(--paragraph);
   text-decoration: underline;
@@ -494,8 +498,15 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
     font-size: 25px;
     margin-left: 0;
   }
+  .projectPage .projectSection .grids {
+    margin-left: 9%;
+    margin-right: 7%;
+  }
   .projectPage .projectSection .grids .projectCard .projectTitle {
     font-size: 20px;
+  }
+  .projectPage .projectSection .grids .projectCard .sourceCodeIconContainer {
+    font-size: 1.7rem;
   }
   #HackathonTitle {
     font-size: 24px;
