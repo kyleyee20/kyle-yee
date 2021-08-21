@@ -47,5 +47,3 @@ function NavMenu() {
 }
 
 export default NavMenu;
-
-// style={{display: "none"}}

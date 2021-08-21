@@ -19,7 +19,7 @@ function Project() {
                   key={index}
                   title={project.title}
                   description={project.description}
-                  githubLink={project.githubLink}
+                  hostedLink={project.hostedLink}
                 />
               );
             })}

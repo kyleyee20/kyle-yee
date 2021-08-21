@@ -5,7 +5,7 @@ function PersonalProjectCard(props) {
     <div className="projectCard">
       <h3 className="projectTitle">
         <a
-          href={props.githubLink}
+          href={props.hostedLink}
           target="_blank"
           rel="noreferrer"
           className="hover-scarlett"
@@ -14,7 +14,7 @@ function PersonalProjectCard(props) {
         </a>
       </h3>
       <a
-        href={props.githubLink}
+        href={props.hostedLink}
         target="_blank"
         rel="noreferrer"
         className="hover-scarlett projectLink"
