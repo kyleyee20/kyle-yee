@@ -19,7 +19,7 @@ export const PersonalProjectData = [
   {
     title: "Weather App",
     description:
-      "A multipurpose weather app that shows current forecasts while also showing wind speed and humidity! The data is fetched from a third-party source (A Weather API) using axios, an http client used to make API calls. This allows users to access information about the weather through their source and use it however. I displayed the data on the front-end using React.js.",
+      "A multipurpose weather app that shows current forecasts while also showing wind speed and humidity! The data is fetched from a third-party source (A Weather API) using axios, an http client used to make API calls. This allows users to access information about the weather through their source and use it however they like. I displayed the data on the front-end using React.js.",
     hosted: true,
     hostedLink: "https://camweatherapp2.herokuapp.com/",
     code: "https://github.com/Cameron327/weatherapp2",
