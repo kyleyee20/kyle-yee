@@ -11,12 +11,11 @@ function About() {
             </strong>
             <p className="description">
               Hi There! I'm Cameron currently a Junior at UCD working towards a
-              B.S. degree in Computer Science. In my most recent work
-              experience, I worked for Oneboard.live as a front-end and back-end
-              engineer, mainly using JavaScript, React.JS, and Google Firebase.
-              Other than school and professional work, I like to learn new
-              skills and put them into practice by completing my own projects.
-              In my free time, I like to volunteer or watch movies and TV shows.
+              B.S. degree in Computer Science. I have experience working tools
+              such as React.js, Vue.js, Express.js, and Google Firebase, just to
+              name a few. I'm continuing to enhance my Full Stack Development
+              skills during my work and my free time! For fun, I like to watch
+              movies and TV shows or play basketball.
             </p>
           </div>
         </section>
@@ -63,6 +62,15 @@ function About() {
                 className="hover-scarlett"
               >
                 React.js
+              </a>{" "}
+              ·{" "}
+              <a
+                href="https://vuejs.org/"
+                target="_blank"
+                rel="noreferrer"
+                className="hover-scarlett"
+              >
+                Vue.js
               </a>{" "}
               · Git ·{" "}
               <a
