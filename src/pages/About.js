@@ -10,7 +10,7 @@ function About() {
               <h2 className="header">About Me</h2>
             </strong>
             <p className="description">
-              Hi There! I'm Cameron currently a Junior at UCD working towards a
+              Hi There! I'm Cameron and I'm currently a Junior at UCD working towards a
               B.S. degree in Computer Science. I have experience working tools
               such as React.js, Vue.js, Express.js, and Google Firebase, just to
               name a few. I'm continuing to enhance my Full Stack Development
