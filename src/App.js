@@ -6,6 +6,7 @@ import NavBar from "./pages/NavBar.js";
 import Footer from "./pages/Footer.js"
 import SocialLinks from "./components/SocialLinks.js";
 import ScrollToTop from "./components/ScrollToTop.js";
+import KonamiCode from "./pages/KonamiCode.js";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route component={Home} path="/" exact />
         <Route component={About} path="/about" />
         <Route component={Project} path="/project" />
+				<Route component={KonamiCode} path="/upupdowndownleftrightleftrightba"/>
       </Switch>
       <SocialLinks />
       <Footer/>
