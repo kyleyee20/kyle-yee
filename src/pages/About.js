@@ -10,12 +10,13 @@ function About() {
               <h2 className="header">About Me</h2>
             </strong>
             <p className="description">
-              Hi There! I'm Cameron and I'm currently a Junior at UCD working towards a
-              B.S. degree in Computer Science. I have experience working tools
-              such as React.js, Vue.js, Express.js, and Google Firebase, just to
-              name a few. I'm continuing to enhance my Full Stack Development
-              skills during my work and my free time! For fun, I like to watch
-              movies and TV shows or play basketball.
+              Hi There! I'm Cameron and I'm currently a Senior at UCD working
+              towards a B.S. degree in Computer Science with my most recent
+              experience being a SWE Intern @ Google. I have experience working
+              with tools such as React.js, Angular, Vue, Express, and Google
+              Firebase, just to name a few. I'm continuing to enhance my
+              Software Developer skills during my work and my free time! For
+              fun, I like to watch movies/TV shows and play basketball.
             </p>
           </div>
         </section>
@@ -24,7 +25,7 @@ function About() {
           <div className="aboutCard">
             <h2 className="header2">Programming Languages</h2>
             <p className="languages">
-              Python · JavaScript · C++ · C · HTML · CSS
+              Python · Typescript · JavaScript · C++ · C · HTML · CSS
             </p>
             <h2 className="header2">Technologies/Frameworks</h2>
             <p className="technologies">
@@ -72,6 +73,15 @@ function About() {
               >
                 Vue.js
               </a>{" "}
+              ·{" "}
+              <a
+                href="https://angular.io/"
+                target="_blank"
+                rel="noreferrer"
+                className="hover-scarlett"
+              >
+                Angular
+              </a>
               · Git ·{" "}
               <a
                 href="https://jquery.com/"
