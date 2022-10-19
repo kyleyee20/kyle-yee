@@ -232,7 +232,7 @@ button {
   background-color: var(--main-background);
 }
 .projectPage .projectSection {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 .projectPage .projectSection .projectSectionName {
   font-size: 40px;
@@ -293,7 +293,7 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
 }
 .aboutPage .section {
   @apply grid grid-cols-1;
-  margin-top: 60px;
+  margin-top: 45px;
 }
 .aboutPage .divider {
   height: 5px;
@@ -312,6 +312,12 @@ Transition on the hover tag is for mouse in and transition in the regular tag is
   color: var(--text-white);
   font-size: 18px;
 }
+.shows, .movies {
+  margin: 10px 0;
+  color: var(--text-white);
+  font-size: 18px;
+}
+
 .aboutPage .section .aboutCard .header2{
   font-size: 28px;
   color: var(--scarlett);

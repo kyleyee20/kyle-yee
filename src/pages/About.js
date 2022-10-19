@@ -10,14 +10,21 @@ function About() {
               <h2 className="header">About Me</h2>
             </strong>
             <p className="description">
-              Hi There! I'm Cameron and I'm currently a Senior at UCD working
-              towards a B.S. degree in Computer Science with my most recent
-              experience being a SWE Intern @ Google. I have experience working
-              with tools such as React.js, Angular, Vue, Express, and Google
-              Firebase, just to name a few. I'm continuing to enhance my
-              Software Developer skills during my work and my free time! For
-              fun, I like to watch movies/TV shows and play basketball.
+              Hi there! I'm currently a 4th year studying Computer Science at
+              the University of California, Davis and am also a Software
+              Engineer who's always enthusiastic about learning new skills and
+              looking to solve problems 1 bit at a time. Fun fact, I am an avid
+              TV Show & Movie watcher.
             </p>
+            <div className="shows">
+              Recent favorite TV shows: Daredevil (2015), Stranger Things, The Boys,
+              Sherlock (2010), Better Call Saul, The Office, The Flash (2014).
+            </div>
+            <div className="movies">
+              Recent favorite movies: Avengers Infinity War, Top Gun: Maverick,
+              Spider-Man: No Way Home, Justice League: Snyder Cut, Guardians of
+              the Galaxy, The Suicide Squad (2021)
+            </div>
           </div>
         </section>
         <div className="divider"></div>
@@ -117,9 +124,7 @@ function About() {
                 className="hover-scarlett"
               >
                 Axios
-              </a>{" "}
-              · object-oriented programming · data structures · algorithm
-              analysis · web-development
+              </a>
             </p>
           </div>
         </section>
