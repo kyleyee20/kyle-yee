@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 // import style from "./style.module.css";
 import NavMenu from "../components/NavMenu.js"
- 
+
 function NavBar() {
   return (
     <div className="navbar">
@@ -12,7 +12,7 @@ function NavBar() {
         className="navBar-brand"
         activeClassName="activeLink"
       >
-        Cameron Yee
+        Kyle Yee
       </NavLink>
       <div className="navLinks">
         <NavLink
@@ -40,7 +40,7 @@ function NavBar() {
           ABOUT
         </NavLink>
       </div>
-      <NavMenu/>
+      <NavMenu />
     </div>
   );
 }

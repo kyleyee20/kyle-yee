@@ -12,14 +12,14 @@ function Home() {
           <h1>
             Hello! My name is{" "}
             <strong>
-              <span className="name">Cameron</span>
+              <span className="name">Kyle</span>
             </strong>
             .
           </h1>
           <h2>
-            I'm a Full Stack Developer and a Computer Science major at{" "}
+            I'm a Full Stack Developer and a Graduated Computer Engineering major from {" "}
             <a
-              href="https://www.ucdavis.edu/"
+              href="https://ucsd.edu/"
               target="_blank"
               rel="noreferrer"
               className="hover-scarlett"
